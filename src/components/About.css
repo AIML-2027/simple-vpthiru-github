@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background-color: azure;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 780px;
+}
+.textsec{
+    margin-left: 40px;
+    margin-top: -60px;
+}
+
+.textsec h1{
+    color: blue;
+    font-size: 50px;
+    margin-top: 40px;
+}
+.textsec h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.textsec span{
+    font-weight: bold;
+
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 163, 50);
+    background-color: rgb(73, 73, 253);
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-top: 80px;
+    transition: background-color 0.5s ease;
+    
+}
+.btn:hover{
+    background-color: aliceblue;
+    color: blueviolet;
+}
+.container img{
+    height: 600px;
+}

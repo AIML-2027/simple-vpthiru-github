@@ -1,0 +1,38 @@
+.sk{
+    background-color: rgb(234, 237, 237);
+    font-family: Arial, sans-serif;
+    padding-top: 80px;
+    padding-left: 40px;
+    height: 500px;
+}
+.stitle{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+.sspan{
+    font-size: 20px;
+    font-weight: bold;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: rgb(225, 247, 245);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 210px;
+}
+.card:hover{
+    cursor: pointer;
+    overflow: hidden;
+    transform: scale(1.10); 
+    transition: transform 0.5s ease;
+}
+
+.card img{
+    height: 130px;
+}
